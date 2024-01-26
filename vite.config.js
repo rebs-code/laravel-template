@@ -8,4 +8,11 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    //add alias to resources
+    resolve: {
+        alias: {
+            '~resources': '/resources/',
+        },
+    },
+
 });
